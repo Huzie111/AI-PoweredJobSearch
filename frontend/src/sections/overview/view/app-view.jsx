@@ -22,7 +22,7 @@ export default function AppView() {
   return (
     <Container maxWidth="xl">
       <Typography variant="h4" sx={{ mb: 5 }}>
-        Hi, Welcome back 👋
+        Hi, Serunjogi Huzaifa
       </Typography>
 
       <Grid container spacing={3}>
@@ -214,9 +214,9 @@ export default function AppView() {
 
         <Grid xs={12} md={6} lg={8}>
           <AppTasks
-            title="Tasks"
+            title="Featured Projects"
             list={[
-              { id: '1', name: 'Create FireStone Logo' },
+              { id: '1', name: 'LUS' },
               { id: '2', name: 'Add SCSS and JS files if required' },
               { id: '3', name: 'Stakeholder Meeting' },
               { id: '4', name: 'Scoping & Estimations' },
