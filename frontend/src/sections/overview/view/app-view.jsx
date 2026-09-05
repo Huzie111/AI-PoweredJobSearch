@@ -216,11 +216,24 @@ export default function AppView() {
           <AppTasks
             title="Featured Projects"
             list={[
-              { id: '1', name: 'LUS' },
+              { id: '1', name: 'AI-Powered Job Search' },
               { id: '2', name: 'Add SCSS and JS files if required' },
               { id: '3', name: 'Stakeholder Meeting' },
               { id: '4', name: 'Scoping & Estimations' },
               { id: '5', name: 'Sprint Showcase' },
+            ]}
+          />
+        </Grid>
+
+        <Grid xs={12} md={6} lg={8}>
+          <AppTasks
+            title="Other Projects"
+            list={[
+              { id: '1', name: 'LUS' },
+              { id: '2', name: 'Project Management Tool' },
+              { id: '3', name: 'Data Analytics Dashboard' },
+              { id: '4', name: 'Mobile App Development' },
+              { id: '5', name: 'Cloud Infrastructure Setup' },
             ]}
           />
         </Grid>
