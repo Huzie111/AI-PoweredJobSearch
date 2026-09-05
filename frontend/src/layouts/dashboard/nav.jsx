@@ -31,7 +31,7 @@ export default function Nav({ openNav, onCloseNav }) {
 
   const pathname = usePathname();
 
-  const name = "Ainamaani Isaac"
+  const name = "Serunjogi Huzaifa"
 
   const upLg = useResponsive('up', 'lg');
 
