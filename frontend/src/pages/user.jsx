@@ -8,7 +8,7 @@ export default function UserPage() {
   return (
     <>
       <Helmet>
-        <title> Jobs | CareerConnect </title>
+        <title> Serunjogi Huzaifa | CareerConnect </title>
       </Helmet>
 
       <UserView />
